@@ -29,8 +29,9 @@ The advantage function uses both action-value and state-value, emphasizing the q
 
 $$A(s, a) = Q(s, a) - V(s)$$
 
-The A2C algorithm maintains an actor network with parameters $\theta$ and a critic network with parameters $\theta_v$ that share common features. For each state visited, the actor selects the action according to policy $\pi(a_t | s_t; \theta')$ and the environment returns a reward and state at timestep $t$.
+The A2C algorithm maintains an actor network with parameters $\theta$ and a critic network with parameters $\theta_v$ that share common features. 
 
+For each state visited, the actor selects the action according to policy $\pi(a_t | s_t; \theta')$ and the environment returns a reward and state at timestep $t$.
 The algorithm then computes a bootstrapped estimate $R$ which is used to accumulate gradients for both actor and critic networks. While the actor's gradients are scaled by $R - V(s_i; \theta_v')$ to encourage exploitation, the critic's gradients are scaled by $(R - V(s_i; \theta_v'))^2$ to minimize errors for predicted state values.
 
 
