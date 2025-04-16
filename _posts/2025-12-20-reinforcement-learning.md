@@ -135,9 +135,13 @@ However, it's worth noting that A2C showed more gradual and steady improvement, 
 
 In future work, it would be interesting to test these algorithms on more complex environments to better understand their scaling properties and performance characteristics across different types of tasks.
 
-## References
+## References & Links
 
-1. [Personal A2C & PPO Cartpole Implementation](https://github.com/anshul-rao/gym-cartpole)
-2. [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/pdf/1602.01783)
-3. [Proximal Policy Optimization Paper](https://arxiv.org/pdf/1707.06347)
-4. [OpenAI Gymnasium CartPole Documentation](https://www.gymlibrary.dev/environments/classic_control/cart_pole/)
+### Github Source
+Here is the source code for the A2C and PPO implementations used in this post: [anshul-rao/gym-cartpole](https://github.com/anshul-rao/gym-cartpole).
+
+### References
+
+1. [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/pdf/1602.01783)
+2. [Proximal Policy Optimization Paper](https://arxiv.org/pdf/1707.06347)
+3. [OpenAI Gymnasium CartPole Documentation](https://www.gymlibrary.dev/environments/classic_control/cart_pole/)
