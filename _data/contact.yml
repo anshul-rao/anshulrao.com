@@ -5,6 +5,7 @@
 
 - type: linkedin
   icon: "fa-brands fa-linkedin-in"
+  url: "https://www.linkedin.com/in/anshul-rao/"
 
 - type: email
   icon: "fas fa-envelope"
